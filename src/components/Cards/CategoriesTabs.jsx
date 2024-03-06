@@ -10,7 +10,7 @@ const CategoriesTabs = () => {
   return (
     <>
       <section className="w-full bg-[#1A7E91]/20 mx-auto mb-8">
-        <div className="categoriestext-[13px] w-full hidden xl:flex justify-center md:shadow-sm md:border-b-2 space-x-5 px-2 pt-5">
+        <div className="categoriestext-[13px] w-full hidden xl:flex justify-center md:shadow-sm md:border-b-2 space-x-10 px-2 pt-5">
           {categoriesTab.map((nav, index) => (
             <NavLink
               key={index}

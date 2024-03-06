@@ -51,7 +51,7 @@ const ShopCategory = () => {
   }, []);
 
   return (
-    <section className="w-full mx-auto relative z-0 px-4">
+    <section className="w-full container mx-auto relative z-0 px-4">
       <div className="pb-6 relative">
         <h1 className="font-bold text-[24px] py-2 px-2 montserrat">
           Shop by category

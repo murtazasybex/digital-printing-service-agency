@@ -1,5 +1,5 @@
 import React from "react";
-import ClothingAndBags from "../components/ClothingAndBags";
+import ClothingAndBags from "../components/ClothingBags/ClothingAndBags";
 
 const clothingandbags = () => {
   return (

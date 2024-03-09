@@ -1,5 +1,5 @@
 import React from "react";
-import Wedding from "../components/Wedding";
+import Wedding from "../components/Wedding/Wedding";
 
 const wedding = () => {
   return (

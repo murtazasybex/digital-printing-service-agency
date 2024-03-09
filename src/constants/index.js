@@ -1,5 +1,7 @@
 import {
   advisor,
+  bags,
+  basketballkit,
   bestsellerfive,
   bestsellerfour,
   bestsellerone,
@@ -14,6 +16,12 @@ import {
   bestsellinggiftsix,
   bestsellinggiftthree,
   bestsellinggifttwo,
+  bigdayfive,
+  bigdayfour,
+  bigdayone,
+  bigdaysix,
+  bigdaythree,
+  bigdaytwo,
   bookcover,
   bottle,
   brandlabelfive,
@@ -50,6 +58,7 @@ import {
   cardsforanytypeone,
   cardsforanytypethree,
   cardsforanytypetwo,
+  cottonquality,
   cup,
   customcalenderone,
   customcalenderthree,
@@ -57,6 +66,9 @@ import {
   customersmakingone,
   customersmakingthree,
   customersmakingtwo,
+  customuniform,
+  dresshirts,
+  drinkware,
   drinkwarefive,
   drinkwarefour,
   drinkwareone,
@@ -76,18 +88,30 @@ import {
   eventradeshowsix,
   eventradeshowthree,
   eventradeshowtwo,
+  expressshipping,
   fb,
   flyers,
   frame,
+  getinspiredone,
+  getinspiredthree,
+  getinspiredtwo,
   getstartedone,
   getstartedthree,
   getstartedtwo,
   gift,
+  hats,
+  household,
   insta,
+  invitethemefour,
+  invitethemeone,
+  invitethemethree,
+  invitethemetwo,
+  jackets,
   keepsakesone,
   keepsakesthree,
   keepsakestwo,
   lamp,
+  leisure,
   letshearfour,
   letshearone,
   letshearthree,
@@ -105,7 +129,9 @@ import {
   logoseenthree,
   logoseentwelve,
   logoseentwo,
+  minorderqty,
   network,
+  newarrival,
   officewallfive,
   officewallfour,
   officewallone,
@@ -117,6 +143,7 @@ import {
   onsaleone,
   onsalethree,
   onsaletwo,
+  ourbestseller,
   packagingfive,
   packagingfour,
   packagingone,
@@ -136,6 +163,7 @@ import {
   personalizedpartythree,
   personalizedpartytwo,
   pinterest,
+  poloshirts,
   quality,
   shopbyone,
   shopbyspecialfinishone,
@@ -152,6 +180,8 @@ import {
   shoppapersandtexturessix,
   shoppapersandtexturesthree,
   shoppapersandtexturestwo,
+  snackscandy,
+  soccer,
   socialmediafour,
   socialmediaone,
   socialmediathree,
@@ -171,22 +201,26 @@ import {
   stickersix,
   stickerthree,
   stickertwo,
+  sweatshirts,
   testimonialimgone,
   testimonialimgthree,
   testimonialimgtwo,
   tshirt,
+  tshirts,
   turnheadsfive,
   turnheadsfour,
   turnheadsone,
   turnheadssix,
   turnheadsthree,
   turnheadstwo,
+  usb,
   valueformoney,
   wallartone,
   wallartothree,
   wallartwo,
   weddingcard,
   wordpress,
+  writingoffice,
   x,
   youtube,
 } from "../assets";
@@ -396,6 +430,45 @@ export const homegiftsFaqs = [
   },
   {
     question: "What photos should I use for my photo gifts?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+];
+
+export const weddingFaqs = [
+  {
+    question: "What do I say in a wedding card?",
+    answer: [
+      "It depends. If you're kicking off wedding planning by sending out save the dates, check out these examples for inspiration. For wedding invitations, we recommend including a request to attend, the couple's names, the location, the date and time and the reception details. Basically, all the details your guests will need to come and celebrate your love. And if you want to send a token of appreciation to your guests after the party's over, these thank you card wording tips are sure to help.",
+    ],
+  },
+  {
+    question: "What should I *not* say in a wedding card?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "What should I put on wedding stationery?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "Does wedding stationery have to match?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "Is it okay to handwrite addresses on wedding invitations?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "What wedding stationery do I need?",
     answer: [
       "Yes you can. We have a variety of signage accessory options available for purchase.",
     ],
@@ -731,6 +804,75 @@ export const asideHomeGifts = [
   },
 ];
 
+export const asideClothingBags = [
+  {
+    category: "Clothing",
+    items: [
+      "T-Shirts",
+      "Polo Shirts",
+      "Dress Shirts",
+      "Sweatshirts",
+      "Jackets",
+      "See all Clothing",
+    ],
+  },
+  {
+    category: "Sports and Teamwear",
+    items: ["Soccer kit", "Basketball"],
+  },
+  {
+    category: "Hats",
+    items: [
+      "Basketball Caps",
+      "Trucker Caps",
+      "Performance Caps",
+      "Beanies",
+      "Visors",
+      "See all hats",
+    ],
+  },
+  {
+    category: "Bags",
+    items: [
+      "Totes",
+      "Backpacks",
+      "Drawstrings",
+      "Duffel bags",
+      "Cooler bags",
+      "See all bags",
+    ],
+  },
+  {
+    category: "Can`t miss collection",
+    items: [
+      "New Arrivals",
+      "Express Shipping",
+      "No minimum order quality",
+      "100% cotton T-Shirts",
+      "Custom Work Uniform",
+      "Our Bestsellers",
+    ],
+  },
+];
+
+export const promotionalProducts = [
+  {
+    category: "Featured Categories",
+    items: ["Clothing", "Hats", "Bags", "Pens", "Office", "See all"],
+  },
+  {
+    category: "Our picks for you",
+    items: [
+      "New Arrivals",
+      "Express Shipping",
+      "No minimum order quality",
+      "100% cotton T-Shirts",
+      "Custom Work Uniform",
+      "Our Bestsellers",
+    ],
+  },
+];
+
 export const asideLabelsStickers = [
   {
     category: "Categories",
@@ -812,6 +954,76 @@ export const asidePostcardsData = [
       "Digital Marketing",
       "Logo Maker",
       "Postcard Mailing Services",
+    ],
+  },
+];
+
+export const asideWeddingData = [
+  {
+    category: "Free Wedding Starters",
+    items: ["Free Sample Kit"],
+  },
+  {
+    category: "Expert Design Services",
+    items: ["Request a Custom Design"],
+  },
+  {
+    category: "Themes & Styles",
+    items: ["Simply Modern", "New Rustic", "Ultra Romance", "Boho Bliss"],
+  },
+  {
+    category: "Save the Dates",
+    items: [
+      "Save the Date Cards",
+      "Save the Date Magnets",
+      "Non-Photo Save the Date Cards",
+      "Save the Date Postcards",
+    ],
+  },
+  {
+    category: "Invitations & Stationery",
+    items: [
+      "Bridal Shower Invitations",
+      "Wedding Invitations",
+      "Thank You Cards",
+      "RSVP Cards",
+      "Enclosure Cards",
+      "Return Address Labels",
+      "Custom Envelopes",
+    ],
+  },
+  {
+    category: "Day-of Decor",
+    items: [
+      "Welcome Signs",
+      "Seating Chart Signs",
+      "Ceremony Programs",
+      "Menu Cards",
+      "Acrylic Wedding Signs",
+    ],
+  },
+  {
+    category: "Wedding Favors",
+    items: ["Koozies", "Party Cups", "Wine Labels", "Chocolates", "Mints"],
+  },
+  {
+    category: "Gifts & Keepsakes",
+    items: [
+      "Canvas Prints",
+      "Photo Books",
+      "Acrylic Blocks",
+      "Metal Prints",
+      "Wood Prints",
+    ],
+  },
+  {
+    category: "Ideas & Advice",
+    items: [
+      "Wedding Planning How-Tos",
+      "Tips On When to Send Save the Dates",
+      "Save the Date Wording Ideas",
+      "Thank You Card Wording Ideas",
+      "Wedding invitation size and design",
     ],
   },
 ];
@@ -1075,6 +1287,121 @@ export const bestsellingGifts = [
     startingprice: "1 starting at",
     fullprice: "$39.99",
     discountprice: "$33.99",
+  },
+];
+
+export const bigdayBestsellers = [
+  {
+    image: bigdayone,
+    label: "Wedding Invitations",
+  },
+  {
+    image: bigdaytwo,
+    label: "Save the Date Cards",
+  },
+  {
+    image: bigdaythree,
+    label: "Napkins",
+  },
+  {
+    image: bigdayfour,
+    label: "Foam Board Signs",
+  },
+  {
+    image: bigdayfive,
+    label: "Menu Cards",
+  },
+  {
+    image: bigdaysix,
+    label: "Thank You Cards",
+  },
+];
+
+export const getInspired = [
+  {
+    image: getinspiredone,
+    label: "Wedding planning how-tos",
+    content: "Consider this your official to-do list.",
+  },
+  {
+    image: getinspiredtwo,
+    label: "Tips on when to send save the dates",
+    content: "Because timing is everything.",
+  },
+  {
+    image: getinspiredthree,
+    label: "Save the date wording ideas",
+    content: "Announce the day with a little flourish.",
+  },
+];
+
+export const cantmissCollections = [
+  {
+    image: newarrival,
+    label: "New Arrivals",
+  },
+  {
+    image: minorderqty,
+    label: "No Minimum Order Quality",
+  },
+  {
+    image: cottonquality,
+    label: "100% Cotton Quality",
+  },
+  {
+    image: soccer,
+    label: "Soccer Kit",
+  },
+  {
+    image: basketballkit,
+    label: "Basketball kit",
+  },
+  {
+    image: customuniform,
+    label: "Custom Work Uniform",
+  },
+  {
+    image: ourbestseller,
+    label: "Our Bestseller",
+  },
+  {
+    image: expressshipping,
+    label: "Expressshipping",
+  },
+];
+
+export const ourPicks = [
+  {
+    image: newarrival,
+    label: "New Arrivals",
+  },
+  {
+    image: minorderqty,
+    label: "No Minimum Order Quality",
+  },
+  {
+    image: cottonquality,
+    label: "100% Cotton Quality",
+  },
+  {
+    image: soccer,
+    label: "Soccer Kit",
+  },
+  {
+    image: basketballkit,
+    label: "Basketball kit",
+  },
+  {
+    image: customuniform,
+    label: "Custom Work Uniform",
+  },
+  {
+    image: ourbestseller,
+    label: "Our Bestseller",
+  },
+  {
+    image: expressshipping,
+    label: "Expressshipping",
   },
 ];
 
@@ -1989,6 +2316,34 @@ export const cardsForAnytype = [
   { image: cardsforanytypetwo, label: "Photography" },
   { image: cardsforanytypethree, label: "Landscaping" },
   { image: cardsforanytypefour, label: "Construction" },
+];
+
+export const inviteThemes = [
+  { image: invitethemeone, label: "Airy Greenery" },
+  { image: invitethemetwo, label: "Ultra Romance" },
+  { image: invitethemethree, label: "Simply Modern" },
+  { image: invitethemefour, label: "Boho Bliss" },
+];
+
+export const personalizedItems = [
+  { image: tshirts, label: "T-Shirts" },
+  { image: poloshirts, label: "Polo Shirts" },
+  { image: jackets, label: "Jackets" },
+  { image: sweatshirts, label: "Sweatshirts" },
+  { image: hats, label: "Hats" },
+  { image: dresshirts, label: "Dress Shirts" },
+  { image: bags, label: "Bags" },
+];
+
+export const rightProducts = [
+  { image: drinkware, label: "Drinkware" },
+  { image: writingoffice, label: "Writing and Office" },
+  { image: sweatshirts, label: "Clothing" },
+  { image: snackscandy, label: "Snacks and Candies" },
+  { image: usb, label: "Technology" },
+  { image: leisure, label: "Leisure" },
+  { image: household, label: "Household" },
+  { image: bags, label: "Bags" },
 ];
 
 export const brandServiceItems = [

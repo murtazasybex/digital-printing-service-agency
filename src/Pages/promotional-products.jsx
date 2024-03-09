@@ -1,5 +1,5 @@
 import React from "react";
-import PromotionalProducts from "../components/PromotionalProducts";
+import PromotionalProducts from "../components/PromotionalProducts/PromotionalProducts";
 
 const promotionalproducts = () => {
   return (

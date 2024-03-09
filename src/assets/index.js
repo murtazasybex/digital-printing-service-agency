@@ -232,8 +232,94 @@ import personalizedpartyone from "./personalizedpartyone.webp";
 import personalizedpartytwo from "./personalizedpartytwo.webp";
 import personalizedpartythree from "./personalizedpartythree.webp";
 import personalizedpartyfour from "./personalizedpartyfour.webp";
+import weddingbannerimg from "./weddingbannerimg.webp";
+import bigdayone from "./bigdayone.webp";
+import bigdaytwo from "./bigdaytwo.webp";
+import bigdaythree from "./bigdaythree.webp";
+import bigdayfour from "./bigdayfour.webp";
+import bigdayfive from "./bigdayfive.webp";
+import bigdaysix from "./bigdaysix.webp";
+import weddingcta from "./weddingcta.webp";
+import getinspiredone from "./getinspiredone.webp";
+import getinspiredtwo from "./getinspiredtwo.webp";
+import getinspiredthree from "./getinspiredthree.webp";
+import weddingfaq from "./weddingfaq.webp";
+import invitethemeone from "./invitethemeone.webp";
+import invitethemetwo from "./invitethemetwo.webp";
+import invitethemethree from "./invitethemethree.webp";
+import invitethemefour from "./invitethemefour.webp";
+import clothingbagbannerimg from "./clothingbagbannerimg.webp";
+import tshirts from "./tshirts.webp";
+import bags from "./bags.webp";
+import sweatshirts from "./sweatshirts.webp";
+import hats from "./hats.webp";
+import dresshirts from "./dressshirts.webp";
+import jackets from "./jackets.webp";
+import poloshirts from "./poloshirts.webp";
+import clothingbagctaimgone from "./clothingbagctaimgone.webp";
+import clothingbagctaimgtwo from "./clothingbagctaimgtwo.webp";
+import cottonquality from "./cottonquality.webp";
+import newarrival from "./newarrival.webp";
+import minorderqty from "./minorderqty.webp";
+import basketballkit from "./basketballkit.webp";
+import soccer from "./soccer.webp";
+import customuniform from "./customuniform.webp";
+import ourbestseller from "./ourbestseller.webp";
+import expressshipping from "./expressshipping.webp";
+import promotionalbannerimg from "./promotionalbannerimg.webp";
+import drinkware from "./drinkware.webp";
+import writingoffice from "./writingoffice.webp";
+import snackscandy from "./snackscandies.webp";
+import usb from "./technology.webp";
+import leisure from "./leisure.webp";
+import household from "./household.webp";
+import promotionalctaimgone from "./promotionalctaimgone.png";
+import promotionalctaimgtwo from "./promotionalctaimgtwo.png";
 
 export {
+  promotionalctaimgone,
+  promotionalctaimgtwo,
+  drinkware,
+  writingoffice,
+  snackscandy,
+  usb,
+  leisure,
+  household,
+  promotionalbannerimg,
+  cottonquality,
+  newarrival,
+  minorderqty,
+  basketballkit,
+  soccer,
+  customuniform,
+  ourbestseller,
+  expressshipping,
+  clothingbagctaimgone,
+  clothingbagctaimgtwo,
+  tshirts,
+  bags,
+  sweatshirts,
+  hats,
+  dresshirts,
+  jackets,
+  poloshirts,
+  clothingbagbannerimg,
+  invitethemeone,
+  invitethemetwo,
+  invitethemethree,
+  invitethemefour,
+  weddingfaq,
+  getinspiredone,
+  getinspiredtwo,
+  getinspiredthree,
+  weddingcta,
+  bigdayone,
+  bigdaytwo,
+  bigdaythree,
+  bigdayfour,
+  bigdayfive,
+  bigdaysix,
+  weddingbannerimg,
   personalizedpartyone,
   personalizedpartytwo,
   personalizedpartythree,

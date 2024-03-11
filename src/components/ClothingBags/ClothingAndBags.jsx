@@ -6,6 +6,7 @@ import CTAOne from "./CTAOne";
 import Collections from "./Collections";
 import CTATwo from "./CTATwo";
 import FooterSecondary from "../BusinessCards/FooterBusinesscards";
+import CustomText from "./CustomText";
 
 const ClothingAndBags = () => {
   return (
@@ -16,6 +17,7 @@ const ClothingAndBags = () => {
       <CTAOne />
       <Collections />
       <CTATwo />
+      <CustomText />
       <FooterSecondary />
     </>
   );

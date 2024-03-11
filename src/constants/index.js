@@ -22,6 +22,7 @@ import {
   bigdaysix,
   bigdaythree,
   bigdaytwo,
+  birthday,
   bookcover,
   bottle,
   brandlabelfive,
@@ -99,9 +100,11 @@ import {
   getstartedthree,
   getstartedtwo,
   gift,
+  graduation,
   hats,
   household,
   insta,
+  invitationcard,
   invitethemefour,
   invitethemeone,
   invitethemethree,
@@ -195,6 +198,7 @@ import {
   stationarysix,
   stationarythree,
   stationarytwo,
+  stationery,
   stickerfive,
   stickerfour,
   stickerone,
@@ -317,14 +321,11 @@ export const categoryItems = [
 ];
 
 export const shopByCategory = [
-  { image: cards, label: "Wedding" },
-  { image: cards, label: "Graduation" },
-  { image: cards, label: "Birthday" },
-  { image: cards, label: "Invitations & Announcements" },
-  { image: cards, label: "Wedding" },
-  { image: cards, label: "Graduation" },
-  { image: cards, label: "Birthday" },
-  { image: cards, label: "Invitations & Announcements" },
+  { image: weddingcard, label: "Wedding" },
+  { image: graduation, label: "Graduation" },
+  { image: birthday, label: "Birthday" },
+  { image: invitationcard, label: "Invitations & Announcements" },
+  { image: stationery, label: "Stationery" },
 ];
 
 export const responsiveLayout = [

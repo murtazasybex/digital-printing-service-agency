@@ -7,11 +7,11 @@ const Stationary = () => {
       <section className="w-full container mx-auto relative py-8">
         <div className="">
           <h1 className="font-bold text-[28px] mt-7 pl-3 px-2 inter">
-            Bestsellers that get the party started
+            Stationery to have on hand
           </h1>
           <p className="text-[17px] pb-6 pt-2 pl-3 px-2 inter">
-            Browse our top picks for life’s special events – and everyday
-            moments too.
+            Stock up on stylish paper goods that turn letters and notes into
+            small delights.
           </p>
         </div>
         <div className="flex justify-around flex-wrap relative overflow-hidden gap-3">

@@ -6,6 +6,7 @@ import CTAOne from "./CTAOne";
 import CTATwo from "./CTATwo";
 import Footer from "../BusinessCards/FooterBusinesscards";
 import OurPicks from "./OurPicks";
+import CustomText from "./CustomText";
 
 const PromotionalProducts = () => {
   return (
@@ -16,6 +17,7 @@ const PromotionalProducts = () => {
       <CTAOne />
       <OurPicks />
       <CTATwo />
+      <CustomText />
       <Footer />
     </>
   );

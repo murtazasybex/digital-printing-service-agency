@@ -275,8 +275,20 @@ import leisure from "./leisure.webp";
 import household from "./household.webp";
 import promotionalctaimgone from "./promotionalctaimgone.png";
 import promotionalctaimgtwo from "./promotionalctaimgtwo.png";
+import celebinvitebannerimg from "./celebrationinvitationbannerimg.webp";
+import celebinvitectaimg from "./celebinvitectaimg.webp";
+import graduation from "./graduation.webp";
+import invitationcard from "./invitationcard.webp";
+import birthday from "./birthday.webp";
+import stationery from "./stationery.webp";
 
 export {
+  graduation,
+  invitationcard,
+  birthday,
+  stationery,
+  celebinvitectaimg,
+  celebinvitebannerimg,
   promotionalctaimgone,
   promotionalctaimgtwo,
   drinkware,

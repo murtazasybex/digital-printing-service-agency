@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { ctaimgone } from "../../assets";
+import { celebinvitectaimg, ctaimgone } from "../../assets";
 
 const CTA = () => {
   return (
     <>
-      <div className="w-full mx-auto relative px-2 z-0">
-        <div className="home-banner bg-cover bg-left md:bg-center w-full bg-no-repeat my-6 relative">
+      <div className="w-full mx-auto relative px-2 z-0 bg-[#1A7E91]">
+        <div className="bg-cover bg-left md:bg-center w-full bg-no-repeat my-6 relative">
           <div className="flex justify-between lg:flex-row flex-col md:py-6 lg:py-0 py-16 items-center">
             <div className="space-y-5 pl-10 w-full max-w-[620px]">
               <h1 className="font-bold montserrat text-[32px] md:text-[36px] lg:text-[42px] text-white pr-2">
@@ -24,7 +24,7 @@ const CTA = () => {
             </div>
             <div>
               <img
-                src={ctaimgone}
+                src={celebinvitectaimg}
                 className="w-full max-w-[700px] pt-10 px-10"
                 alt="printing agency"
               />

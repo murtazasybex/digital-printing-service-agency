@@ -12,7 +12,7 @@ import CTA from "./CTA";
 import FAQs from "./FAQs";
 import CategoriesTabs from "./CategoriesTabs";
 
-const Cards = () => {
+const CelebrationAndInvitation = () => {
   return (
     <>
       <Announcement />
@@ -31,4 +31,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default CelebrationAndInvitation;

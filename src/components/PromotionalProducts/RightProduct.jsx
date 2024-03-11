@@ -7,7 +7,7 @@ const RightProduct = () => {
       <section className="w-full relative z-0 px-2">
         <div className="w-full container mx-auto relative z-0 px-2">
           <div className="pb-6 w-full max-w-[1200px] ml-auto">
-            <h1 className="font-bold text-[28px] py-6 montserrat">
+            <h1 className="font-bold text-[28px] pt-6 montserrat">
               Find the right product for you
             </h1>
             <p className="text-[17px] inter">

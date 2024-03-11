@@ -18,12 +18,11 @@ import Deals from "./Pages/deals";
 import SignsBannersAndPosters from "./Pages/signs-banners-and-posters";
 import LabelsStickersAndPackaging from "./Pages/labels-stickers-and-packaging";
 import HomeAndGifts from "./Pages/home-and-gifts";
-import CelebrationsInvitationsAndStationary from "./Pages/celebrations-invitations-and-stationery";
 import Wedding from "./Pages/wedding";
 import ClothingAndBags from "./Pages/clothing-and-bags";
 import PromotionalProducts from "./Pages/promotional-products";
 import DesignAndLogo from "./Pages/design-and-logo";
-import Cards from "./Pages/cards";
+import CelebrationAndInvitaton from "./Pages/celebrations-invitations-and-stationery";
 
 function App() {
   const router = createBrowserRouter(
@@ -47,7 +46,7 @@ function App() {
         <Route path="/home-and-gifts" element={<HomeAndGifts />} />
         <Route
           path="/celebrations-invitations-and-stationery"
-          element={<CelebrationsInvitationsAndStationary />}
+          element={<CelebrationAndInvitaton />}
         />
         <Route path="/wedding" element={<Wedding />} />
         <Route path="/clothing-and-bags" element={<ClothingAndBags />} />
@@ -57,7 +56,6 @@ function App() {
         <Route path="/signin" element={<Signin />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/projects" element={<MyProjects />} />
-        <Route path="/cards" element={<Cards />} />
       </Route>
     )
   );
